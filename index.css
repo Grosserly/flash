@@ -1,0 +1,203 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+@keyframes fade-in {
+    from {filter: opacity(0);}
+    to   {filter: opacity(1);}
+}
+
+:root {
+
+	--card-border-radius: 10px;
+	--card-width: 16em;
+	--white: #FAFAFA; /* off white */
+	--black: #171717; /* off black */
+	--translucent-light-gray: rgba(235, 235, 235, 0.97);
+	--translucent-mid-gray:   rgba(170, 170, 170, 0.97);
+	--gray1: #EEE     /* light gray */
+	--gray2: #AAA;    /* darker-but-still-pretty-light gray */
+	--gray3: #546E7A; /* blue-gray */
+	--blue:  #2196F3;
+	--green: #4CAF50;
+	--red:   #F44336;
+
+}
+
+html, body {
+
+	height: 100%;
+	
+}
+
+
+body {
+
+    padding: 0;
+    margin:  0;
+    background: var(--white);
+	color: var(--black);
+    font-family: "Roboto", sans-serif;
+    font-size: 13pt;
+
+}
+
+
+header {
+
+	position: fixed;
+	padding: 0;
+	font-size: 1.5em;
+    padding: 22px 1em 22px 80px;
+	background: var(--translucent-light-gray);
+	outline: 1px solid var(--translucent-mid-gray);
+
+}
+
+header, footer {
+
+	width: 97%;
+	z-index: 1;
+	
+}
+
+footer {
+
+    background: var(--translucent-light-gray);
+    outline: 1px solid var(--translucent-mid-gray);
+	text-align: center;
+    padding: 2em 1em 4em;
+
+}
+
+#by {
+
+	font-size: 0.8em;
+	color: var(--gray2);
+
+}
+
+
+.error {
+
+    padding: 0.5em 1em;
+    margin: 1em 8em 2em;
+    background: var(--gray1);
+    border: 3px solid var(--red);
+	text-align: center;
+	border-radius: var(--card-border-radius);
+
+} .error::before {
+
+    content: "";
+    background: url(../img/error-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	padding: 0 1em 0 1em;
+	
+}
+
+
+#card-container-container { /* For dynamic side margins */
+
+    display: flex;
+    justify-content: center;
+	animation: fade-in 1s;
+
+}
+
+
+#card-container {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 6em 2em 2em;
+	padding: 0;
+
+}
+
+
+.card {
+
+	display: block;
+	position: relative; /* For positioning the pseudo-element */
+	background: var(--white);
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+	padding-bottom: 0.5em;
+	width: var(--card-width);
+	margin: 0 1em 2em;
+	text-decoration: none;
+	color: inherit;
+
+}
+
+.card img {
+
+	border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
+	background: var(--gray2); /* Placeholder color until image loads */
+	width: 100%;
+	height: 8em;
+	object-fit: cover; /* Center-crop image to fit into the card */
+
+}
+
+.card p {
+
+	margin: 0.5em 1em;
+
+}
+
+.title {
+
+	color: var(--gray3); /* Uncategorized cards get this color */
+	font-size: 1.15em;
+
+}
+
+
+/* 
+ * h3 color codes
+ * Color code the cards with these
+ */
+.game { /* Playable things with a goal */
+	color: var(--blue) !important;
+}
+.interactive { /* Playable things with no goal */
+	color: var(--green) !important;
+}
+.art { /* Things that you just look at */
+	color: var(--red) !important;
+}
+
+
+/*
+ * Shadow on hover
+ * https://alligator.io/css/transition-box-shadows/
+ */
+.hs::before {
+  /* Position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top:0;right:0;bottom:0;left:0;
+  border-radius: var(--card-border-radius);
+
+  /* Create the box shadow at expanded size */
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+
+  /* Hidden by default */
+  opacity: 0;
+  transition: opacity 250ms;
+}
+.hs:hover::before {
+  /* Show the pseudo-element on hover */
+  opacity: 1;
+}
+
+
+.placeholder-card {
+
+	width: var(--card-width);
+	margin: 0.5em 1em 0;
+
+}
