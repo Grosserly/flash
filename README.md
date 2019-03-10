@@ -1,5 +1,5 @@
 # [Slightly garlic-scented Flash things](https://grosserly.github.io/flash/)
 
-A made a place to play `.swf` files that I have
+A place I made to play random `.swf` files I have
 
 https://grosserly.github.io/flash/
