@@ -1,24 +1,24 @@
 
-.zoom {
+.card-open-class {
 	position: absolute;
 	margin: 0;
-	animation: zoom var(--speed) ease forwards;
+	animation: card-open-animation var(--speed) ease forwards;
 	z-index: 2;
 }
 
 
-.zoom iframe {
+.card-open-class iframe {
 	border: none;
 	width:  100%;
 	height: 8em;
 	background: #000;
 	border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
-	animation: zoom-iframe var(--speed) ease forwards;
+	animation: card-open-animation-iframe var(--speed) ease forwards;
 
 }
 
 
-@keyframes zoom {
+@keyframes card-open-animation {
 	to {
 		left: 0;
 		top:  0;
@@ -30,7 +30,7 @@
 	}
 }
 
-@keyframes zoom-iframe {
+@keyframes card-open-animation-iframe {
 	to {
 		border-radius: 0;
 		height: 100%;
