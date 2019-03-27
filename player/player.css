@@ -1,0 +1,52 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+
+html, body {
+
+	margin:  0;
+	height: 100%;
+	background: #000;
+	overflow: hidden;
+
+}
+
+body {
+
+	padding: 0;
+	margin:  0;
+	background: var(--white);
+	color: var(--black);
+	font-family: "Roboto", sans-serif;
+	font-size: 13pt;
+	
+}
+
+
+#altContent { /* I would name this "noflash" if I could, but "altContent" is hardcoded into swfobject.js */
+
+	height: 100%;
+
+}
+
+
+.error {
+
+	position: fixed;
+	padding: 0.5em 1em;
+	margin: 1em 8em 2em;
+	background: var(--gray1);
+	border: 3px solid var(--red);
+	text-align: center;
+	font-size: 16pt;
+	border-radius: var(--card-border-radius);
+
+} .error::before {
+
+	content: "";
+	background: url(../img/error-icon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 0 1em 0 1em;
+
+}

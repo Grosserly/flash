@@ -6,7 +6,6 @@
 	<title>Flash</title>
 	<link rel="stylesheet" href="index.css">
 	<link rel="icon" href="/favicon.png">
-	<!--script type="text/javascript" src="/common/imports/hamburger-menu.js"></script-->
 
 </head>
 
@@ -16,176 +15,372 @@
 <header>Slightly garlic-scented Flash things</header>
 
 <div id="card-container-container"> <!-- For dynamic margins -->
-<div id="card-container">
+	<div id="featured">
+		
+		<h1>Featured</h1>	
+		
+		<div class="card-container">
+		
+			<a class="card hl" href="player/?id=pacxon&title=Pacxon">
+				<img src="img/pacxon.jpg">
+				<p class="game title">Pacxon</p>
+				<p>Fill in the screen, but watch out for ghosts.</p>
+			</a>
 
-	<a class="card hs" href="player/?id=supermarioflash&title=Super Mario Flash">
-		<img src="img/supermarioflash.png">
-		<p class="game title">Super Mario Flash</p>
-		<p>A Super Mario All-Stars-themed Mario level maker.</p>
-	</a>
+			<a class="card hl" href="player/?id=ditto&title=Ditto">
+				<img src="img/ditto.png">
+				<p class="game title">Ditto</p>
+				<p>Navigate your way through an atmospheric puzzle platformer.</p>
+			</a>
 
-	<a class="card hs" href="player/?id=supermarioflash2&title=Super Mario Flash 2">
-		<img src="img/supermarioflash2.png">
-		<p class="game title">Super Mario Flash 2</p>
-		<p>A Super Mario World-themed Mario level maker.</p>
-	</a>
+			<a class="card hl" href="player/?id=jjjump&title=J-J-Jump">
+				<img src="img/jjjump.png">
+				<p class="game title">J-J-Jump</p>
+				<p>Use your super J-J-Jump powers to escape <span class="small-caps">the flood</span>.</p>
+			</a>
+		
+		</div>
+	
+	</div>
 
-	<a class="card hs" href="player/?id=getontop&title=Get On Top">
-		<img src="img/getontop.jpg">
-		<p class="game title">Get On Top</p>
-		<p>Jump, push, flip - do whatever it takes to slam your opponent to the ground.</p>
-	</a>
+	<div class="card-container" id="main">
 
-	<a class="card hs" href="player/?id=fancypantsadventure&title=Fancy Pants Adventure">
-		<img src="img/fancypantsadventure-alt.jpg">
-		<p class="game title">Fancy Pants Adventure</p>
-		<p>Some game I played a lot when I was 9.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=fancypantsadventure2&title=Fancy Pants Adventure 2">
-		<img src="img/fancypantsadventure2.jpg">
-		<p class="game title">Fancy Pants Adventure 2</p>
-		<p>The sequel to some game I played a lot when I was 9.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=oiligarchy&title=Oiligarchy">
-		<img src="img/oiligarchy.png">
-		<p class="game title">Oiligarchy</p>
-		<p>Harvest all the earth's oil. Possibly environmentalist propaganda.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=canary&title=Canary">
-		<img src="img/canary.png">
-		<p class="game title">Canary</p>
-		<p>Explore the mines using your laser cannon to carve through the rocks.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=changetype&title=changeType()">
-		<img src="img/changetype.png">
-		<p class="game title">changeType()</p>
-		<p>Swap all spikes with blocks or springs with coins. Rewire the Platformer!</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=chisel&title=Chisel">
-		<img src="img/chisel.jpg">
-		<p class="game title">Chisel</p>
-		<p>Tunnel your way through the ground to reduce the planets to the target size.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=chisel2&title=Chisel 2">
-		<img src="img/chisel2.jpg">
-		<p class="game title">Chisel 2</p>
-		<p>Now you can jump.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=dirkvalentine&title=Dirk Valentine">
-		<img src="img/dirkvalentine.jpg">
-		<p class="game title">Dirk Valentine</p>
-		<p>Use your chain cannon to create platforms in this steampunk world.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=faultline&title=Fault Line">
-		<img src="img/faultline.gif">
-		<p class="game title">Fault Line</p>
-		<p>Fold space into another dimension to move walls and gaps out of your way.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=finalninja&title=Final Ninja">
-		<img src="img/finalninja.jpg">
-		<p class="game title">Final Ninja</p>
-		<p>Use your ninja rope and cloaking skills to take down your ex-boss.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=finalninjazero&title=Final Ninja Zero">
-		<img src="img/finalninjazero.png">
-		<p class="game title">Final Ninja Zero</p>
-		<p>A prequel to that other one.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=gunbrick&title=Gunbrick">
-		<img src="img/gunbrick.png">
-		<p class="game title">Gunbrick</p>
-		<p>The lowest-resolution game you'll ever play.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=icebeak&title=Icebeak">
-		<img src="img/icebeak.png">
-		<p class="game title">Icebeak</p>
-		<p>Freeze flaming monsters and shatter puzzles.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=icebreaker&title=Icebreaker">
-		<img src="img/icebreaker.png">
-		<p class="game title">Icebreaker</p>
-		<p>Slice ice to get the Nordic clan back to the safety of their longboat.</p>
-	</a>
+		<a class="card hl" href="player/?id=supermarioflash&title=Super Mario Flash">
+			<img src="img/supermarioflash.png">
+			<p class="game title">Super Mario Flash</p>
+			<p>A Super Mario All-Stars-themed Mario level maker.</p>
+		</a>
 
-	<a class="card hs" href="player/?id=rubbletroubletokyo&title=Rubble Trouble Tokyo">
-		<img src="img/rubbletroubletokyo.jpg">
-		<p class="game title">Rubble Trouble Tokyo</p>
-		<p>The precision demolition team's got some jobs in Japan.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=nitromemustdie&title=Nitrome Must Die">
-		<img src="img/nitromemustdie.png">
-		<p class="game title">Nitrome Must Die</p>
-		<p>Blast your way through Nitrome Towers in an action packed two player shooter.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=sillysausage&title=Silly Sausage">
-		<img src="img/sillysausage.png">
-		<p class="game title">Silly Sausage</p>
-		<p>Use your wit and get the lovable stretchy dog to the finish.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=skywire&title=Skywire">
-		<img src="img/skywire.png">
-		<p class="game title">Skywire</p>
-		<p>Guide the Skywire's passengers along the rail, avoiding out-of-control toys.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=skywire2&title=Skywire 2">
-		<img src="img/skywire2.gif">
-		<p class="game title">Skywire 2</p>
-		<p>The sequel to the classic Skywire. Now with 2P and bosses.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=steamlands&title=Steamlands">
-		<img src="img/steamlands.jpg">
-		<p class="game title">Steamlands</p>
-		<p>Build tanks from scrap to destroy your enemies and salvage their equipment.</p>
-	</a>
+		<a class="card hl" href="player/?id=supermarioflash2&title=Super Mario Flash 2">
+			<img src="img/supermarioflash2.png">
+			<p class="game title">Super Mario Flash 2</p>
+			<p>A Super Mario World-themed Mario level maker.</p>
+		</a>
 
-	<a class="card hs" href="player/?id=food&title=Food">
-		<img src="img/food.png">
-		<p class="interactive title">Food</p>
-		<p>Hot salt water.</p>
-	</a>
+		<a class="card hl" href="player/?id=getontop&title=Get On Top">
+			<img src="img/getontop.jpg">
+			<p class="game title">Get On Top <b>2P</b></p>
+			<p>Jump, push, flip - do whatever it takes to slam your opponent to the ground.</p>
+		</a>
 
-	<a class="card hs" href="player/?id=pixelspix&title=Pixel's Pix">
-		<img src="img/pixelspix.png">
-		<p class="interactive title">Pixel's Pix</p>
-		<p>An ancient and broken Lazytown game/desktop simulator.</p>
-	</a>
-	
-	<a class="card hs" href="player/?id=youareapirate&title=LOL, LIMEWIRE">
-		<img src="img/youareapirate.png">
-		<p class="art title">You are a Pirate</p>
-		<p>I don't know what this is or how I found it.</p>
-	</a>
+		<a class="card hl" href="player/?id=fancypantsadventure&title=Fancy Pants Adventure">
+			<img src="img/fancypantsadventure-alt.jpg">
+			<p class="game title">Fancy Pants Adventures</p>
+			<p>Some game I played a lot when I was 9.</p>
+		</a>
 
-</div>
+		<a class="card hl" href="player/?id=fancypantsadventure2&title=Fancy Pants Adventure 2">
+			<img src="img/fancypantsadventure2.jpg">
+			<p class="game title">Fancy Pants Adventures World&nbsp;2</p> <!-- No-break space so the browser doesn't separate "World" from "2" -->
+			<p>The sequel to some game I played a lot when I was 9.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=oiligarchy&title=Oiligarchy">
+			<img src="img/oiligarchy.png">
+			<p class="game title">Oiligarchy</p>
+			<p>Harvest all the earth's oil. Possibly environmentalist propaganda.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=avalanche&title=Avalanche">
+			<img src="img/avalanche.jpg">
+			<p class="game title">Avalanche<br><span class="subtitle">A penguin adventure!</span></p>
+			<p>Downhill mayhem. Avoid obstacles and keep ahead of <span class="small-caps">the avalanche</span>.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=badicecream&title=Bad Ice-Cream">
+			<img src="img/badicecream.png">
+			<p class="game title">Bad Ice-Cream <b>2P</b></p>
+			<p>Blow walls of ice to block enemies to win.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=badicecream2&title=Bad Ice-Cream 2">
+			<img src="img/badicecream2.png">
+			<p class="game title">Bad Ice-Cream 2 <b>2P</b></p>
+			<p>Bad Ice-Cream was so popular, they made a sequel.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=bullethead&title=Bullethead">
+			<img src="img/bullethead.jpg">
+			<p class="game title">Bullethead <b>2P</b></p>
+			<p>Defend the world from aliens by shooting them with a gun that's on your head.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=canary&title=Canary">
+			<img src="img/canary.png">
+			<p class="game title">Canary</p>
+			<p>Explore the mines using your laser cannon to carve through the rocks.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=cavechaos&title=Cave Chaos">
+			<img src="img/cavechaos.jpg">
+			<p class="game title">Cave Chaos <b>2P</b></p>
+			<p>Adventure through an unstable cave network.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=changetype&title=changeType()">
+			<img src="img/changetype.png">
+			<p class="game title monospace">changeType()</p>
+			<p>Swap all spikes with blocks or springs with coins. Rewire the Platformer!</p>
+		</a>
+
+		<a class="card hl" href="player/?id=chisel&title=Chisel">
+			<img src="img/chisel.jpg">
+			<p class="game title">Chisel</p>
+			<p>Tunnel your way through the ground to reduce the planets to the target size.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=chisel2&title=Chisel 2">
+			<img src="img/chisel2.jpg">
+			<p class="game title">Chisel 2</p>
+			<p>Now you can jump.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=dirkvalentine&title=Dirk Valentine">
+			<img src="img/dirkvalentine.jpg">
+			<p class="game title">Dirk Valentine</p>
+			<p>Use your chain cannon to create platforms in this steampunk world.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=doubleedged&title=Double-edged">
+			<img src="img/doubleedged.jpg">
+			<p class="game title">Double-edged <b>2P</b></p>
+			<p>A co-op beat-em-up set in ancient Greece with huge mythical bosses.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=fatcat&title=Fat Cat">
+			<img src="img/fatcat.jpg">
+			<p class="game title">Fat Cat</p>
+			<p>Play as an owl and a flower garden cat in a frantic top-down puzzle shoot-em-up.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=flashcat&title=Flash Cat">
+			<img src="img/flashcat.gif">
+			<p class="game title">Flash Cat</p>
+			<p>Weave your through trap-laden courses aboard a legged craft.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=flightless&title=Flightless">
+			<img src="img/flightless.png">
+			<p class="game title">Flightless <b>2P</b><br><span class="subtitle">Out on Steam!</span></p>
+			<p>Steal stuff using the power of magic ladders in this metroidvania.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=faultline&title=Fault Line">
+			<img src="img/faultline.gif">
+			<p class="game title">Fault Line</p>
+			<p>Fold space into another dimension to move walls and gaps out of your way.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=finalninja&title=Final Ninja">
+			<img src="img/finalninja.jpg">
+			<p class="game title">Final Ninja</p>
+			<p>Use your ninja rope and cloaking skills to take down your ex-boss.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=finalninjazero&title=Final Ninja Zero">
+			<img src="img/finalninjazero.png">
+			<p class="game title">Final Ninja Zero</p>
+			<p>A prequel to that other one.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=giftwrapped&title=Gift Wrapped">
+			<img src="img/giftwrapped.png">
+			<p class="game title">Gift Wrapped</p>
+			<p>Find <em>your</em> present among a pile of other presents.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=gunbrick&title=Gunbrick">
+			<img src="img/gunbrick.png">
+			<p class="game title">Gunbrick</p>
+			<p>The lowest-resolution game you'll ever play.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=hotairjr&title=Hot Air Jr.">
+			<img src="img/hotairjr.jpg">
+			<p class="game title">Hot Air Jr.</p>
+			<p>Help Hot Air Jr. find his lost dog. Just don't pop him.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=icebeak&title=Icebeak">
+			<img src="img/icebeak.png">
+			<p class="game title">Icebeak</p>
+			<p>Freeze flaming monsters and shatter puzzles.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=icebreaker&title=Icebreaker">
+			<img src="img/icebreaker.png">
+			<p class="game title">Icebreaker</p>
+			<p>Slice ice to get the Nordic clan back to the safety of their longboat.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=lockehorn&title=Lockehorn">
+			<img src="img/lockehorn.jpg">
+			<p class="game title">Lockehorn <b>2P</b></p>
+			<p>Help Lockehorn save his tribe from the <span class="small-caps">big freeze</span>, or just battle with a buddy.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=magictouch&title=Magic Touch">
+			<img src="img/magictouch.jpg">
+			<p class="game title">Magic Touch<br><span class="subtitle">Wizard for Hire</span></p>
+			<p>Draw the symbols to pop the balloons and stop the beetleknights landing.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=megamash&title=Mega Mash">
+			<img src="img/megamash.jpg">
+			<p class="game title">Mega Mash</p>
+			<p>Help guide 7 heroes through the perils of a corrupted game cartridge.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=nitromemustdie&title=Nitrome Must Die">
+			<img src="img/nitromemustdie.png">
+			<p class="game title">Nitrome Must Die<span class="subtitle">!!!!!</span> <b>2P</b></p>
+			<p>Blast your way through Nitrome Towers in an action packed two player shooter.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=offtherails&title=Off The Rails">
+			<img src="img/offtherails.jpg">
+			<p class="game title">Off The Rails</p>
+			<p>Hammer the buttons to power your hand car through each treacherous railroad.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=rainbogeddon&title=Rainbogeddon">
+			<img src="img/rainbogeddon.jpg">
+			<p class="game title">Rainbogeddon <b>2P</b><br><span class="subtitle">The Spectrum Maze Adventures!</span></p>
+			<p>A psychedelic multiplayer maze game that is defintely not like Pac-Man in any way.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=rubbletrouble&title=Rubble Trouble">
+			<img src="img/rubbletrouble.png">
+			<p class="game title">Rubble Trouble</p>
+			<p>Precisely demolish New York buildings with a wide range of tools.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=rubbletroubletokyo&title=Rubble Trouble Tokyo">
+			<img src="img/rubbletroubletokyo.jpg">
+			<p class="game title">Rubble Trouble Tokyo</p>
+			<p>Now they're in Japan.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=sillysausage&title=Silly Sausage">
+			<img src="img/sillysausage.png">
+			<p class="game title">Silly Sausage</p>
+			<p>Use your wit and get the lovable stretchy dog to the finish.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=skywire&title=Skywire">
+			<img src="img/skywire.png">
+			<p class="game title">Skywire</p>
+			<p>Guide the Skywire's passengers along the rail, avoiding out-of-control toys.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=skywire2&title=Skywire 2">
+			<img src="img/skywire2.gif">
+			<p class="game title">Skywire 2 <b>2P</b></p>
+			<p>The sequel to the classic Skywire. Now with V.S. mode and bosses.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=snotput&title=Snot Put">
+			<img src="img/snotput.png">
+			<p class="game title">Snot Put</p>
+			<p>Fling a ball of snot as far as possible. This one's actually really fun.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=steamlands&title=Steamlands">
+			<img src="img/steamlands.jpg">
+			<p class="game title">Steamlands</p>
+			<p>Build tanks from scrap to destroy your enemies and salvage their equipment.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=steamlandsplayerpack&title=Steamlands Player Pack">
+			<img src="img/steamlandsplayerpack.jpg">
+			<p class="game title">Steamlands Player Pack</p>
+			<p>A Steamlands sequel, except this time the developers made random people make the levels.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=superstocktake&title=Super Stocktake">
+			<img src="img/superstocktake.png">
+			<p class="game title">Super Stocktake</p>
+			<p>Live your lifelong dream: taking stock in a warehouse.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=supertreadmill&title=Super Treadmill">
+			<img src="img/supertreadmill.jpg">
+			<p class="game title">Super Treadmill</p>
+			<p>Live your <em>other</em> lifelong dream: exercizing.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=swindler&title=Swindler">
+			<img src="img/swindler.png">
+			<p class="game title">Swindler</p>
+			<p>Drop down from a rope hanging from the ceiling and steal stuff.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=swindler2&title=Swindler 2">
+			<img src="img/swindler2.png">
+			<p class="game title">Swindler 2</p>
+			<p>Fans just couldn't get enough dropping down from ropes and stealing stuff.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=templeglider&title=Temple Glider">
+			<img src="img/templeglider.png">
+			<p class="game title">Temple Glider</p>
+			<p>Glide down through hoops and stuff to escape ancient tombs.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=testsubjectblue&title=Test Subject Blue">
+			<img src="img/testsubjectblue.gif">
+			<p class="game title">Test Subject Blue</p>
+			<p>Perform a series of tests with portals for the big, always-watching scientist.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=testsubjectgreen&title=Test Subject Green">
+			<img src="img/testsubjectgreen.jpg">
+			<p class="game title">Test Subject Green</p>
+			<p>The second chapter: there are some new developments afoot now.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=turnament&title=Turnament">
+			<img src="img/turnament.jpg">
+			<p class="game title">Turnament</p>
+			<p>Dance with your enemies in this tiny, turn-based puzzle game.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=twinshot&title=Twin Shot">
+			<img src="img/twinshot.jpg">
+			<p class="game title">Twin Shot <b>2P</b></p>
+			<p>An arrow-firing action game set in an ancient cloud city.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=food&title=Food">
+			<img src="img/food.png">
+			<p class="interactive title">Food</p>
+			<p>Hot salt water.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=pixelspix&title=Pixel's Pix">
+			<img src="img/pixelspix.png">
+			<p class="interactive title">Pixel's Pix</p>
+			<p>An ancient and broken Lazytown game/desktop simulator.</p>
+		</a>
+
+		<a class="card hl" href="player/?id=youareapirate&title=LOL, LIMEWIRE">
+			<img src="img/youareapirate.png">
+			<p class="art title">You are a Pirate</p>
+			<p>I don't know what this is or how I found it.</p>
+		</a>
+
+	</div>
 </div>
 
 
 <footer>
-Footer<br><br>
-I don't know what to put here
-<div id="by">Made by garlicOS&reg; in like 2018-19</div>
+	Footer<br><br>
+	I don't know what to put here
+	<div id="by">Made by garlicOS&reg; in like 2018-19</div>
 </footer>
 
 
-<script src="card-zoom/card-zoom.js"></script>
+<script src="card-open/card-open.js"></script>
 
 
 </body>
