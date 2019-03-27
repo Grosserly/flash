@@ -24,8 +24,8 @@ let swfTitle = vars.title;
 let swfID    = vars.id;
 
 // 2.
-swfTitle = decodeURIComponent(gameTitle); // Decode URI (i.e. %20 --> space character) 
-swfID = "swf/" + gameID + ".swf";         // Turn gameID into path to .swf
+swfTitle = decodeURIComponent(swfTitle); // Decode URI (i.e. %20 --> space character) 
+swfID = "swf/" + swfID + ".swf";         // Turn gameID into path to .swf
 
 // 3.
 document.title = swfTitle;
