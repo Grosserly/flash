@@ -84,26 +84,6 @@ footer {
 }
 
 
-.error {
-
-    padding: 0.5em 1em;
-    margin: 1em 8em 2em;
-    background: var(--gray1);
-    border: 3px solid var(--red);
-	text-align: center;
-	border-radius: var(--card-border-radius);
-
-} .error::before {
-
-    content: "";
-    background: url(../img/error-icon.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-	padding: 0 1em 0 1em;
-	
-}
-
-
 #card-container-container { /* For dynamic side margins */
 
     display: flex;
@@ -170,12 +150,15 @@ footer {
 	margin: 0 1em 2em;
 	text-decoration: none;
 	color: inherit; 
-	transition: transform var(--transition-speed);
 	/* image-rendering: pixelated; */ /* Kinda looks nice? Maybe? */
 
-} .card:hover {
+}
 
-	transform: scale(1.025, 1.025);
+.hz { /* Hover zoom - scale the card up just a little bit when hovered to make it look like its lifting off the page */
+
+	
+} .hz:hover {
+
 
 }
 
@@ -236,11 +219,25 @@ footer {
 }
 
 
-/*
- * Shadow on hover
- * https://alligator.io/css/transition-box-shadows/
+/* 
+ * Hover lift
+ * Combine a shadow and scaling effect
+ * to make a card look like it's
+ * lifting off the page
+ * when the cursor hovers over it
  */
-.hs::before {
+.hl {
+
+	transition: transform var(--transition-speed);
+
+} .hl:hover {
+
+	transform: scale(1.025, 1.025);
+
+}
+/* Shadow on hover
+ * https://alligator.io/css/transition-box-shadows/ */
+.hl::before {
 	/* Position the pseudo-element */
 	content: " ";
 	position: absolute;
@@ -256,10 +253,11 @@ footer {
   
 	/* Allow elements under this one to still "sense" the cursor */
 	pointer-events: none;
-}
-.hs:hover::before {
+
+}.hl:hover::before {
 	/* Show the pseudo-element on hover */
 	opacity: 1;
+
 }
 
 
