@@ -1,7 +1,6 @@
 
 // TODO
 //   - Let users close it in some other way than refreshing the page (will require a major rework)
-//   - un-break it
 
 
 /**
@@ -99,43 +98,43 @@ document.addEventListener("DOMContentLoaded", function () {
 				--speed: ${speed}s;
 			}
 
-		.card-open-class {
-			position: absolute;
-			margin: 0;
-			animation: card-open-animation var(--speed) ease forwards;
-			z-index: 2;
-		}
-
-
-		.card-open-class iframe {
-			border: none;
-			width:  100%;
-			height: 8em;
-			background: #000;
-			border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
-			animation: card-open-animation-iframe var(--speed) ease forwards;
-
-		}
-
-
-		@keyframes card-open-animation {
-			to {
-				left: 0;
-				top:  0;
-				width:  100%;
-				height: 100%;
+			.card-open-class {
+				position: absolute;
 				margin: 0;
-				border-radius: 0;
-				box-shadow: none;
+				animation: card-open-animation var(--speed) ease forwards;
+				z-index: 2;
 			}
-		}
 
-		@keyframes card-open-animation-iframe {
-			to {
-				border-radius: 0;
-				height: 100%;
+
+			.card-open-class iframe {
+				border: none;
+				width:  100%;
+				height: 8em;
+				background: #000;
+				border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
+				animation: card-open-animation-iframe var(--speed) ease forwards;
+
 			}
-		}
+
+
+			@keyframes card-open-animation {
+				to {
+					left: 0;
+					top:  0;
+					width:  100%;
+					height: 100%;
+					margin: 0;
+					border-radius: 0;
+					box-shadow: none;
+				}
+			}
+
+			@keyframes card-open-animation-iframe {
+				to {
+					border-radius: 0;
+					height: 100%;
+				}
+			}
 		</style>
 	`);
 
