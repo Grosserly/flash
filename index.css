@@ -10,16 +10,23 @@
 
 	--card-border-radius: 10px;
 	--card-width: 16em;
+	--card-margin: 2em;
+	--card-df-width: calc(var(--card-width) + var(--card-margin)); /* De facto width */
+	
 	--white: #FAFAFA; /* off white */
 	--black: #171717; /* off black */
 	--translucent-light-gray: rgba(235, 235, 235, 0.97);
-	--translucent-mid-gray:   rgba(170, 170, 170, 0.97);
+	--translucent-mid-gray1:  rgba(170, 170, 170, 0.97);
+	--translucent-mid-gray2:  rgba(0, 0, 0, 0.3);
 	--gray1: #EEE     /* light gray */
 	--gray2: #AAA;    /* darker-but-still-pretty-light gray */
 	--gray3: #546E7A; /* blue-gray */
 	--blue:  #2196F3;
 	--green: #4CAF50;
 	--red:   #F44336;
+	--gold: #FFF176;
+	
+	--transition-speed: 250ms;
 
 }
 
@@ -49,7 +56,7 @@ header {
 	font-size: 1.5em;
     padding: 22px 1em 22px 80px;
 	background: var(--translucent-light-gray);
-	outline: 1px solid var(--translucent-mid-gray);
+	outline: 1px solid var(--translucent-mid-gray1);
 
 }
 
@@ -63,7 +70,7 @@ header, footer {
 footer {
 
     background: var(--translucent-light-gray);
-    outline: 1px solid var(--translucent-mid-gray);
+    outline: 1px solid var(--translucent-mid-gray1);
 	text-align: center;
     padding: 2em 1em 4em;
 
@@ -100,19 +107,53 @@ footer {
 #card-container-container { /* For dynamic side margins */
 
     display: flex;
-    justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	animation: fade-in 1s;
+	
+	/*background: red;*/
 
 }
 
 
-#card-container {
+.card-container {
 
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 6em 2em 2em;
-	padding: 0;
+	margin: 0 2em;
+	padding: 2em 0 0;
+	max-width: calc(var(--card-df-width) * 5);
+	
+	/*background: #ff00ff;*/
+
+}
+
+
+#featured {
+
+	border-radius: calc(var(--card-border-radius) * 2);
+	background: var(--gold);
+	margin-top: 6em;
+	padding: 2em 1em 0;
+	/*width: calc(var(--card-df-width) * 3);*/
+
+} #featured > h1 {
+	
+	text-align: center;
+	letter-spacing: 0.75em;
+	color: var(--translucent-mid-gray2);
+	width: 100%;
+	font-size: 1.75em;
+	margin: -0.5em 0;
+	
+	/*background: green;*/
+
+}
+
+#main {
+
+	margin-bottom: 1em;
 
 }
 
@@ -128,7 +169,13 @@ footer {
 	width: var(--card-width);
 	margin: 0 1em 2em;
 	text-decoration: none;
-	color: inherit;
+	color: inherit; 
+	transition: transform var(--transition-speed);
+	/* image-rendering: pixelated; */ /* Kinda looks nice? Maybe? */
+
+} .card:hover {
+
+	transform: scale(1.025, 1.025);
 
 }
 
@@ -155,6 +202,24 @@ footer {
 
 }
 
+.small-caps {
+
+	font-variant: small-caps
+
+}
+
+.subtitle {
+
+	font-size: 0.75em;
+	
+}
+
+.monospace {
+
+	font-family: monospace;
+
+}
+
 
 /* 
  * h3 color codes
@@ -176,22 +241,25 @@ footer {
  * https://alligator.io/css/transition-box-shadows/
  */
 .hs::before {
-  /* Position the pseudo-element */
-  content: " ";
-  position: absolute;
-  top:0;right:0;bottom:0;left:0;
-  border-radius: var(--card-border-radius);
+	/* Position the pseudo-element */
+	content: " ";
+	position: absolute;
+	top:0;right:0;bottom:0;left:0;
+	border-radius: var(--card-border-radius);
 
-  /* Create the box shadow at expanded size */
-  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+	/* Create the box shadow at expanded size */
+	box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
 
-  /* Hidden by default */
-  opacity: 0;
-  transition: opacity 250ms;
+	/* Hidden by default */
+	opacity: 0;
+	transition: opacity var(--transition-speed);
+  
+	/* Allow elements under this one to still "sense" the cursor */
+	pointer-events: none;
 }
 .hs:hover::before {
-  /* Show the pseudo-element on hover */
-  opacity: 1;
+	/* Show the pseudo-element on hover */
+	opacity: 1;
 }
 
 
