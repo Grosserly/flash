@@ -1,0 +1,10 @@
+<root>
+  <level width="48" height="62" start_x="7" start_y="61" compression="true" air_strike="0" drill="0" dynamite="0" missile_launcher="0" cannon="6" gatling_gun="0" grapple="0" quake="0" wrecking_ball="0" target="760" background="0"/>
+  <tiles values="0:2976" id="0"/>
+  <tiles values="0:2132,93,ą7ċ0Ď:39,10ĒČē5đė0Ċą4Ē8Ė6ĝ125Ĕ,6čĥē41ğĳ66ėĪĬ7ĒĘĳĢĳİ68ĸīč7ŀĖĢĊłńĺľ:4čŌĩŅ,ŇēĕğĚčąŋŃŔŎēĊ9ļĠŘķĘśĎĭŃ74ŖĝŮŖľĞĘġĔşęċŒŭűů7űĳŤğŷģ,ŁŭſžųƇŉŐĳĽŬōņƐ0ŏĲĴƒŠƔƙĿƙœĹƜƑąĉĞąŹĵşơƌƣ:ŃěŝţťŏƨƚƫŗƭƵưĆĚƳĆēƵƠŕƸƖǀĴƿƻ1ƯƳċĝ9ķƧƍƶǃňǆ9ǎŨǅƻ8" id="1"/>
+  <tiles values="0:2944,131,ą12ċ36ďĆē3Ė15" id="2"/>
+  <tiles values="0:2976" id="3"/>
+  <tiles values="0:2976" id="4"/>
+  <tiles values="0:2976" id="5"/>
+  <msg text=""/>
+</root>

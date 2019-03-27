@@ -1,0 +1,10 @@
+<root>
+  <level width="60" height="43" start_x="24" start_y="42" compression="true" air_strike="0" drill="0" dynamite="10" missile_launcher="2" cannon="0" gatling_gun="0" grapple="12" quake="0" wrecking_ball="0" target="5000" background="1"/>
+  <tiles values="0:2580" id="0"/>
+  <tiles values="0:1345,58,125:4ċ0,ąēČĎĐĒĔĖĒēď7ĚĊďčĕďĊ56ĖĎ43Ğ2,6ĠĐĚĦģĚĢėĴĢĨİĸĪĲĤěı6įĳĸąıľġĞ4Ę9ģĜ6ĕĕ6ī7ŕċőĨœŕ:51Œıąęŗ,řĞęŝŤŠŢūěĘŚŧũĕŰđŲŎļĸĥĬľŁħńĬňŌ2ķƅĺğĹŉ:ŋĵŁ6ĊŴŖŇĴĊŊż2ƉŏśŒēŔžƂŶŜűĲş3Ţ9Ċ9īąčƪ,ƬĞčƓĞ3č101ƍƳĎƺƼƮţƶƸƿŭǄƻǆĲŘƧǇǀ:ǍŤċƸƥ5ŚŬĬŷĜǕƶŢ8ŜƺƽƹǝőŖƖĶơĩƭǊŨųǦŽƁŃƉƨ,ǞƾŢǁǢǴǤĲǦƘſǪ6č7ǷǼƌƎǱǜǶǎǐǘƤŸƦłĲȂŢņƝŝƟƧŢǢȋȊǉȁŨǷ:ƷƱ4Ȝ9ȥȞȓİīț1ǣƱ9ȦȱıǵțĊǞƼȟȃǺƼț24" id="1"/>
+  <tiles values="0:2521,132,ą4ċ3đą37ĒĔ:đČĎą5ĒĝĚ" id="2"/>
+  <tiles values="0:2580" id="3"/>
+  <tiles values="0:2580" id="4"/>
+  <tiles values="0:2580" id="5"/>
+  <msg text="(barry:That's a lot of safes boss??!!)(foreman:Big money lads! This is payout time!)(garry:Looks easy!)(barry:Easy money!)(foreman:We're going to be rich!)(barry:Woo)(larry:Yay!)(foreman:Grrrrr!!!) "/>
+</root>

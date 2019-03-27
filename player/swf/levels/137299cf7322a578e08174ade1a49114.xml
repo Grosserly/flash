@@ -1,0 +1,10 @@
+<root>
+  <level width="34" height="28" start_x="12" start_y="27" compression="true" air_strike="0" drill="0" dynamite="0" missile_launcher="0" cannon="-1" gatling_gun="0" grapple="0" quake="0" wrecking_ball="0" target="1400" background="0"/>
+  <tiles values="0:952" id="0"/>
+  <tiles values="0:33,101,ąćĉċčĆĈĊČĎĔđėĐĖ:22,9Ĉ0Ġģą8ěĒĞĨģĕĒħĭąĪİī:įęĝğĳİĵĴ2Č9Ĭ0ğŁģġĒ7ĽŅŁŃĆĐŅĢ:6Ĵ15ĉħĎĤĨ1ŗōśĨņąŕĻŔ,2ĥŝċĝťĬ2Ţ0ĔŭūěŪšœŕŦĒĘ1ŪŸ1űĊŰŷŁŻŌŮĜŤŽůō9ĿğŽſůĉűŸƌĠĹƊĹŜƗƇƂƒ5Ƌň9ħƏŮƁŲ9ơĶ3żŧƛĒƈŬŕŘƀŲžƥƞƵƑŘŸıŶƵűƳƑƤĐƦƉŐĈƼŪţƝƶŹǄƿƷǍǆǎǉƮąŤ89Ē4ǏǃƴǒŁǇ,ǙĩĨǤǗǜĻǩǂƱǏǠǏǁĜƛŴ:1ǫĜǫǈǭǟƓǡǎĭƶǊũŌǶǣǚąǹǐǮǽǰōǤȁǳȄǷǛǝǻƑǯƴǱƞŪȏđŠǵźȔƴǞȗȌșŨČȐųŒǧ:ǚǪȕƸǼǌƺȨțȑĐȄȡǍžĥƒȾȤǅŬȾȽčŚŭȂČȭȅȏɈňȳȮȆ" id="1"/>
+  <tiles values="0:918,142Ċ36,0ĊČđ:11ēčąčċĚ:ĜĔěęĕĠĞĥĤę" id="2"/>
+  <tiles values="0:952" id="3"/>
+  <tiles values="0:952" id="4"/>
+  <tiles values="0:952" id="5"/>
+  <msg text="(garry:Er boss I've done a small modification to a cement mixer )(foreman:Garry what have you made this time? )(garry:A cannon! A cement mixer that fires cannon balls! )(garry:It's easy to use: Just position the cannon, find a good angle and hold down the mouse button till you have enough power!)(foreman:Oh dear, oh dear. Try to destroy JUST the building this time! And keep away from my van!!) "/>
+</root>

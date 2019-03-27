@@ -1,0 +1,14 @@
+﻿<root>
+  <level width="28" height="21" start_x="13" start_y="20" compression="true" air_strike="0" drill="0" dynamite="-1" missile_launcher="0" cannon="0" gatling_gun="0" grapple="0" quake="0" wrecking_ball="0" target="1100" background="0"/>
+  <tiles values="0:588" id="0"/>
+  <tiles values="0:290,25Ċ4:6Ċ2,ą18,6Č62:1ĉ63ēĜĐ6ģ7,1ċė7ďħĩ6Ħ7ĉĔģĖ69ĭę9ĬĨĹ,71ġ1ĴėķļńĻĮķĿŁŃĶĪŇĥńľŀĳėĵĺĝœŌŖŒņĶňĽŋŕ6ŗĸŐŦŎŢĢŜŎŞĺĒĝĖĞůŨŊŔūŤŇ4ġĒşŻŪ8" id="1"/>
+  <tiles values="0:588" id="2"/>
+  <tiles values="0:588" id="3"/>
+  <tiles values="0:588" id="4"/>
+  <tiles values="0:588" id="5"/>
+  <msg text="(foreman:Right lads, we've got to make $1100 to complete the job)
+(garry:OK boss we'll trigger the explosives with sticks of nitro-glycerine!)
+(foreman:Just remember we get money for every bit that crumbles to dust. So destroy it all! )
+(garry:Press the tool button at the bottom to use the nitro)
+"/>
+</root>

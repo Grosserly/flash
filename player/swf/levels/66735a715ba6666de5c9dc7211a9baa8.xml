@@ -1,0 +1,10 @@
+<root>
+  <level width="59" height="53" start_x="33" start_y="52" compression="true" air_strike="0" drill="0" dynamite="20" missile_launcher="0" cannon="5" gatling_gun="0" grapple="0" quake="0" wrecking_ball="0" target="1600" background="1"/>
+  <tiles values="0:3127" id="0"/>
+  <tiles values="0:1384,143:Ċą52ċ00,89:8ĔēđĖ1ĕĔ1:6Ĝ,đēĠğ0ģĊĠĝ:5ĮġĠģĩ0İĲ,45ħĔīĝĻĽđ3,51ħďņňńŋŉĊŇŉĒĔŐňĠĎŕŔŒň2ě29,3īĎēŝ,şšĖđň3ĥ37šěŗ:ēŭšŰĈśŚųĥĠĐıŖ0ĳĎŽƂźŦŨŢĔŤŧŞŠƊūšŮŸŲ0ƌŶůűźžƋĤŚƑƜżƟƀƍŧƏţŴƥƉŪƤƘƔƝŵƓƚƠƆƢƜƴƃƞƷƤƈƧưƪƾƑƮƚųƱŷƳƤơƖƺƆƑĘĢėŠǅǑǐǏĨǔĵŔƩǙǖƩǏ9Ņą4ŠǏǙžǛĬǔąēǥǩǠŏěǭƁ4ǨňǝǬǒĴǮǡďŰ9ň9ķǴēǿ,ȁŉǸȆȀķȀǼ4ĥ9ǾƕȃȆȒȈǔȑȆƕĶȆǼ19" id="1"/>
+  <tiles values="0:3127" id="2"/>
+  <tiles values="0:3127" id="3"/>
+  <tiles values="0:3127" id="4"/>
+  <tiles values="0:3127" id="5"/>
+  <msg text="(foreman:Larry! Get down!)(foreman:Wait...1...2...3...4 ???)(larry:Hi!)(larry:Hi!)(larry:Hi!)(larry:Hi!)(barry:Ah boss, Larry's got twin bothers)(garry:Lads! Get down now!)(larry:Sorry big bro!) (larry:We're stuck again!)(larry:Maybe for you. This is my first time!)   "/>
+</root>

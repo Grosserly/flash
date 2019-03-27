@@ -1,0 +1,10 @@
+<root>
+  <level width="43" height="27" start_x="21" start_y="26" compression="true" air_strike="0" drill="0" dynamite="0" missile_launcher="0" cannon="0" gatling_gun="0" grapple="0" quake="-1" wrecking_ball="0" target="800" background="1"/>
+  <tiles values="0:1161" id="0"/>
+  <tiles values="0:363,28Ċ9Ć,30,ą3Č42,107ď3ĘĔĖĘĚĜĉĞēĆČćĐĤĐČĠę2ĒąĢĚħ39ęĵą45ĹĲĆĸ1ĺ:ļľĶŁŃŅłĿķņĻĽŋŇŎńŐŃōőŏœŗŉŐıħı" id="1"/>
+  <tiles values="0:1121,133,ą4ċ3ĊąĎČĎą16ĒĘ:đČĔ:ĖčďĞ" id="2"/>
+  <tiles values="0:1161" id="3"/>
+  <tiles values="0:1161" id="4"/>
+  <tiles values="0:1161" id="5"/>
+  <msg text="(barry:We havn't used the thumper for ages bro?)(garry:True. Careful though we collapsed a whole street last time)(barry:Oh did we? Just a street eh? hmm)(foreman:BARRY! Don't even think about it!!)  "/>
+</root>

@@ -1,0 +1,10 @@
+<root>
+  <level width="55" height="40" start_x="7" start_y="39" compression="true" air_strike="0" drill="0" dynamite="0" missile_launcher="4" cannon="0" gatling_gun="0" grapple="0" quake="0" wrecking_ball="0" target="1000" background="0"/>
+  <tiles values="0:2200" id="0"/>
+  <tiles values="0:689,Ĉ:2,33,ąč48Ċ9Čđ:47,101Ę75ĝ25ġģĞĠčą41Ėĝğ:ģĢĤĦ6,ĴĩĲįĬĮĺč5ľĥĘŁİĪęěĖńłĦŀĮċīĚĉŅĢŋęŅŔō,ŅĬĉŐśŌŖşĬĜĿŠĵŖŦŤņũŃŎŬőŉŦŅ1ŮŧŪĚĜşŴŶŅţĚĕ6ģřŖ6Đą1ĉ9Ƈ:1Į90,Ƌę1ķƂŧŕůƆƔĉĩƔľıő1ģŻšůſ1ĕƞƈƠŇƈĨơŷŽƭĘƈƪğƟŰęŞƝıĜżŚŴƾļƍčƫƍƴƢưŇǀũƱƶņƹŸƣŊůŵǁŏėƢƷĮƬƺƈƿĮƙŧĒƑǇƎǟƍǡĸǘę2ǦƸǞǓƤǚƲǭƨǜǒǏƍǋŭǭǓĕ9ķǞ9ģȂƔǽǖƳǩƩǑǲǻǔųƦŷȐȁƢƏƏčƓƈ4ǕǶŢǵƈĐƐƒșƒƇƒĕȄĜ9ĕċǨț:Đ5ȳƑǍů5ĕ4ƑąȣƑȯƑ9ȬǹǰƏƌƊɅƍȝțśĐ3œķǗĚ,6ȝɏ,Ȼđƒɉ1ɋ3" id="1"/>
+  <tiles values="0:2158,142,ąĎČĎĐċčďĆĕēĘĒėđĖĔĜĠğěģĞĚĦĝęĩġĤħ" id="2"/>
+  <tiles values="0:2200" id="3"/>
+  <tiles values="0:2200" id="4"/>
+  <tiles values="0:2200" id="5"/>
+  <msg text="(garry:My cousin Ivan FOUND this boss)(foreman:A MISSILE LAUNCHER???)(barry:Ivan finds a lot of things doesn't he Garry?)(garry:He sure does!)(barry:It's easy to use. Just position the launcher.Fire and steer with mouse)(foreman:Hmmm...)"/>
+</root>

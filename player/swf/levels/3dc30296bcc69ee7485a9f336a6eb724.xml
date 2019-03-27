@@ -1,0 +1,10 @@
+<root>
+  <level width="60" height="45" start_x="26" start_y="44" compression="true" air_strike="0" drill="0" dynamite="-1" missile_launcher="0" cannon="0" gatling_gun="0" grapple="1" quake="0" wrecking_ball="0" target="2600" background="1"/>
+  <tiles values="0:2700" id="0"/>
+  <tiles values="0:342,143,ą58,90,89Ď:57ĒĔ101:ĉď6ĜĊğĆĘ4Ĥēĕ9ġĦĠĉĖįĞĠ5Ēķ9ĤąĞěĞ4:Ļę4ĦŀłĹĔą4đĿŁĩĥĵĩŌ0ņŏ2đ3ŉ:ŋŅŎŊ,Ĉ,3Ģśœŕş125įŊĝğĸĒĤőŨŔŞśĊŪŬśŮĠńŴŧŷšţĩżŷſŶńƂŤ4ƅžŷōłńũūƋżŰĺİŷĳĉĵĨƛĒčąčƓźĐŠĉƃŊňƠĎŝƑƧŢƋķƝĢƮŏƤƲ,ŗŢŉƶŨŹƹƸƭƐŏƊĩƳǀǃŵłčĬ3Ĥ3đƪŸƔǊƀƣħĉ9ơśǈǕŮǗƙǜ4ķǏŢǒƾįĬƝǣčƻ2ĮčřĭĴħīĹĤƟŊčšĞ3ĨƩ:ĞŢŲŪĩǼƜȆǾǔƱĘȃǎŚČưƓĦƣȆȁėĬĖȍǻȓȊ0ȖǥŤėǯėǳȝǽȠȀȣȞȢȇȭȕȌȘȰȁȒǽȟȡȜ:ėȩǲƋȈȌȋȔȳȽȺȶƜȪȾĘȼȉȮȨɍȱɃȬȷɎśɀȔɂȗɓɈɊɏɁȠȲɛȱȵǲȅūǲǒȻȄŢěǑȎ8" id="1"/>
+  <tiles values="0:2669,142,ąĎČĎĐċčďĆ4" id="2"/>
+  <tiles values="0:2700" id="3"/>
+  <tiles values="0:2700" id="4"/>
+  <tiles values="0:2700" id="5"/>
+  <msg text="(garry:What an ugly building!)(larry:Wow! It's a great view but i'd like to come down now)(garry:LARRY the 3rd!! Not you as well? )(barry:Getting him down will be tough)(garry:I reckon if I use Nitro in the air near walls I can be very accurate destroying stuff)(barry:Give it a go bro)"/>
+</root>

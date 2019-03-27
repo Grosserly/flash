@@ -1,0 +1,10 @@
+<root>
+  <level width="48" height="62" start_x="23" start_y="61" compression="true" air_strike="0" drill="0" dynamite="-1" missile_launcher="0" cannon="0" gatling_gun="0" grapple="5" quake="0" wrecking_ball="0" target="1850" background="1"/>
+  <tiles values="0:2976" id="0"/>
+  <tiles values="0:1744,89,95Ď6,101Ć0ĎĐ9ĒČ,ą32ēĕĞĆĊĔ1ĤĠĢĨą1ĦģğġħĤĮīĩĲİ:ĒĮ3:ġąĻĹ3Ĩ9Ęĳąĸņĕ:8ĢĿľĶ93ĩŊĖŏœĔŕċčďđśĶĔŗīŐğĘ9ńŏįĘĝħŐŬ0ũĎŨŔĎ7ĎōĘ6Đ6ġ6œŊū9ŐšĞ,źƆŽſŵŷŴřşŹĦ25Ťƃ0ŊŏĲƒŐ5ĒƁŎĩĨƇżƆŘƚŏĻƦƆŻƉķƆĜĊ8ƥƓƧēƩ8ưœ7ĘıƆōƱċ4Ő7ĬĺƽċĽġƷ,ǃƭ6ƾǁƹǄĒǎǇ:ǑǍō67ƃƩŀƵƳƆǛġǌƼǔ6ƂƙǠǞ1ƩǧǂǄĪǦǨǟƔƨǠǮǣǰŽǏŮǗǞǔƱŮĊǤǖǻǇǀǯĤǓǏǕǹǘǡǜǪǅǬǷǢǋǺǆǸǴƴȔŐȚȄǱǙǳȝȜǭǳȠȆƷǽȗȊǆǊƿǊȨȮǐȬǿƾĽǾȅȮŘ0ŸȵǅǔĔȾȱȘȀĊňȿȋĤǉȃǄ16" id="1"/>
+  <tiles values="0:2930,136,ą3ċ34ď:32ĒĔąĔČĘĐ" id="2"/>
+  <tiles values="0:2976" id="3"/>
+  <tiles values="0:2976" id="4"/>
+  <tiles values="0:2976" id="5"/>
+  <msg text="(foreman:This is getting silly now)(larry:No boss. We've spotted something up here)(larry:We reckon you can use the steel above us to stop the debris hitting the buildings)(garry:I see what they mean boss! Good work Larry junior and Larry junior the 2nd)"/>
+</root>

@@ -1,0 +1,10 @@
+<root>
+  <level width="67" height="32" start_x="35" start_y="31" compression="true" air_strike="0" drill="0" dynamite="0" missile_launcher="0" cannon="0" gatling_gun="-1" grapple="0" quake="0" wrecking_ball="0" target="580" background="1"/>
+  <tiles values="0:2144" id="0"/>
+  <tiles values="0:964,65Ċ2:ĉ63,89,9Čć,101:ĒĔ,ą56ĊČ6Ď2ĊĒěĩĢĚĜġ:6Ĥě1ıĳįĶą60ĖĽĮĵıģĥč:ĩđĹıĩ14ĒąŋİĢĐĦĎĐğĕĵĞĖĘĤĠĻĽ57ĊĤąĒ7ŠŢş,4Ħ8ıŦĶ5ĺĲŠĶ8ŤŚ8ŮŲķŵł,żŪƁ:ČƃļƀųƅųƇƃƊŽƈſƆžĮƒƐƔƋŨƑũņ8" id="1"/>
+  <tiles values="0:2144" id="2"/>
+  <tiles values="0:2144" id="3"/>
+  <tiles values="0:2144" id="4"/>
+  <tiles values="0:2144" id="5"/>
+  <msg text="(garry:Hey lets use the chain gun again!!) (larry:Ch-ch-chain gun? er try not to shoot me guys!!)"/>
+</root>

@@ -1,0 +1,10 @@
+<root>
+  <level width="35" height="31" start_x="10" start_y="30" compression="true" air_strike="4" drill="0" dynamite="0" missile_launcher="2" cannon="0" gatling_gun="0" grapple="0" quake="0" wrecking_ball="3" target="800" background="1"/>
+  <tiles values="0:1085" id="0"/>
+  <tiles values="0:608,1ĉą2Ċ43,ą4ĊČ:26,95Ěę62:ĜěĝĒėĞĜğ:7,6đčĞę7Ĕ80,Ĳ,ĴĶĳĵķ7ĵįĬĉĹķŃĻĺĸļ1ĥĘĬĨĠīĭŋİĊ03ĪĶĿĦŁŔĮġŜĶŊŀ6ĉ1ŕĥĜťđ7šŚţşąŨŦūŒśũŧşųŢŤŦŰŸŬŌŮŶŽŶŹŚ8ęƂŞŶ8Ė13" id="1"/>
+  <tiles values="0:1062,14ĊąĊČĎ:Đč,ďċĕą13" id="2"/>
+  <tiles values="0:1085" id="3"/>
+  <tiles values="0:1085" id="4"/>
+  <tiles values="0:1085" id="5"/>
+  <msg text="(garry:Cousin Ivan FOUND a plane. It can destroy a lot of stuff quickly!)(larry:Hey don't blow me up bruv)(barry:Hmm I'll help push stuff around with the helicopter!) (foreman:OK but Garry you can only bomb stuff in the yellow barriers!)(foreman:...and I guess you should get Larry down first)"/>
+</root>

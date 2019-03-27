@@ -1,0 +1,14 @@
+﻿<root>
+  <level width="56" height="35" start_x="18" start_y="34" compression="true" air_strike="0" drill="0" dynamite="20" missile_launcher="4" cannon="0" gatling_gun="0" grapple="-1" quake="0" wrecking_ball="0" target="1200" background="0"/>
+  <tiles values="0:1960" id="0"/>
+  <tiles values="0:472,89:ĉ101:8ĊČĉą49,ď3č,ą54Ě0ĜĖ:51ĔĦ,2Čġ30ĞĆ6ĩ5,3đĮĥ4ĳďĨ12ēİ43,4ĮĸĶĺļĐıĉķ:ĳ3ŊĴĶňŒıĻ,9ġĽ:ńśĶ7ĆĶŁĲŚęŝşęćı5İŝĵğłēŠũŚġėĳŀīČńņŧĢđŪŘĳ4ŎňċĪŹŅƇţŃŞĚ27ƁƄƌŕ:ƓĿƙŌƋƆƗġƉűŦ3őŢġŵĐƐŠŲŅĨ9ŨƩƃğľƩƢŮŚİƨƂŷŚńą3ńċƁƪĵ9ĳğŚǅŋňƯǃƃŝƧǊŭǉŚǋƐǂą2ƴůƜĪĽĢĥ1ńďǜĨǈǟďĥ2ǋǓǟą1ĵǮǞǝƒƔǧǝǰǶǳǦčƛǼǱǸȀǿǺǵǲȂıǹȆǺǢ" id="1"/>
+  <tiles values="0:1913,142,ąĎČĎą4ċ30ď:ĊĒęđčĝċğĐġē:Ğĥ5ĖĘģĜĬĢĆ0" id="2"/>
+  <tiles values="0:1960" id="3"/>
+  <tiles values="0:1960" id="4"/>
+  <tiles values="0:1960" id="5"/>
+  <msg text="(foreman:These pesky buildings are right in the way)
+(foreman:Barry use the grabber helicopter and find a way to protect the buildings from debris)
+(garry:Are those safes full of money up there?)
+(foreman:Get those safes down to the floor and we get a sweet bonus boys!)
+"/>
+</root>

@@ -1,0 +1,10 @@
+<root>
+  <level width="56" height="35" start_x="19" start_y="34" compression="true" air_strike="0" drill="0" dynamite="-1" missile_launcher="4" cannon="0" gatling_gun="0" grapple="0" quake="0" wrecking_ball="0" target="1100" background="1"/>
+  <tiles values="0:1960" id="0"/>
+  <tiles values="0:806,89:4,ąĉċčďč2,91ėĖĒĖĐĊČĖĘĚĔ4ġ7ė8ğ:ĝ:đĠėħ9ĩąĥ,10ę0ĶĸĔĩķĹĻĹĕŁďńąľļĺĿĤĖŋŊŉĆņņŃŎœňŀŎŃċńśŇğŜ9Ō,65ţ2īţ3ĔĉŤŦŨ6ŪĴĖ4ťķ6ŨŴū,ŹŶŸťŲ,5ęŽĖƂźƆƄƁłĵƈĈŨƆĞƍŷƅƋƔĻƓƊŅŭ6ŧĖŰŅƒƏƕƙƉƐƤƎƖĺơƩŃ5ħƥħƪƃƨƙƪƯƴƮŢƛƝũƠƳƘƦƻůűŃ6đ1Ũ7ĺƲƗƢƚǇǉǋŔ25Ũ8ę7ŀƫƵţĩǗĶǔŨƀ1ǡŪ8ĳƧǀŀ6ľǥŢǤǕĎǌƥŘǡǲǓǕĉƉǰĭĔ20" id="1"/>
+  <tiles values="0:1907,129,ą4ċ30ď:38Ē6ĕ3ċčĕ4" id="2"/>
+  <tiles values="0:1960" id="3"/>
+  <tiles values="0:1960" id="4"/>
+  <tiles values="0:1960" id="5"/>
+  <msg text="(foreman:Watch out guys. Remember don't let any large debris hit the surrounding buildings or we'll fail the job!)(foreman:Be CAREFUL!)  "/>
+</root>

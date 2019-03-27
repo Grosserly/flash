@@ -1,0 +1,10 @@
+<root>
+  <level width="60" height="43" start_x="25" start_y="42" compression="true" air_strike="0" drill="0" dynamite="20" missile_launcher="0" cannon="0" gatling_gun="0" grapple="1" quake="0" wrecking_ball="1" target="850" background="0"/>
+  <tiles values="0:2580" id="0"/>
+  <tiles values="0:1348,90,101ċ3,ą56ċčď1:ē9ēĕ4ĘĎĐ:5ĒĔĥ2ĢďĪĕģčĞĨ5İę0ĭ:7įħą49,5ĊĽĿčĴĎ4ĝğĿŁľĳĨłŀ,ŏŅĚņēŔıŐŒŎľ6ġ7ĦĖģěĪ1ŇŢ:Īŝ,şĿėļŜŞġšĚĥ,Ū7ŲŮ:ŏŜđ6ĵĵěŖĶĿŽŶńŻŰĿ5Ũőčĉőľ3ēƐ3ŌŠźł4đ3ĦŸūƌƞġ4ė4ĹĕƏžěĹƦĲĦ4ĦĕŌđƲĿƴĥƳĲƹƵ5Ʒ5ƻƸőƱĜ0" id="1"/>
+  <tiles values="0:2521,129,ąĈċ36ďĆĒ5ĕ2" id="2"/>
+  <tiles values="0:2580" id="3"/>
+  <tiles values="0:2580" id="4"/>
+  <tiles values="0:2580" id="5"/>
+  <msg text="(larry:I don't want to shout for Garry n Barry)(larry:I don't to either)(larry:Well someone better)"/>
+</root>
