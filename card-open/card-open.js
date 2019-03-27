@@ -4,14 +4,16 @@
 //   - un-break it
 
 
-// Resize a card to fill the whole page,
-// replace its thumbnail with an iframe
-// set the iframe to the link the card pointed to
-// remove the card's link
+/**
+ *  OPEN CARD
+ *  Resize a card to fill the whole page,
+ *  replace its thumbnail with an iframe
+ *  set the iframe to the link the card pointed to
+ *  remove the card's link
+ */
 function open(index) {
 
-	let card = document.getElementsByTagName("a")[index];
-	alert(index);
+	let card = document.getElementsByClassName("card")[index];
 
 	let url = card.href;
 	
@@ -29,8 +31,8 @@ function open(index) {
 	// Add animation class
 	card.classList.add("card-open-class");
 	
-	// Remove hover shadow (interferes with input to the iframe and you can't see it anyway)	
-	card.classList.remove("hs");
+	// Remove hover lift effect (interferes the iframe and you can't see it anyway)	
+	card.classList.remove("hl");
 	
 	// Put the card where it was before	
 	card.style.left = origCardPos.left + "px";
@@ -62,7 +64,6 @@ function oncardclick(e, index) {
 	
 	if (e.which == 1) {     // If left click,
 		e.preventDefault(); // Don't follow the URL
-		alert(e);
 		open(index);     // Open as a card on the page instead
 	}
 }
@@ -73,8 +74,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	window.onerror = function (msg, url, lineNo, columnNo, error) {
 		var string = msg.toLowerCase();
 		var substring = "script error";
-		if (string.indexOf(substring) > -1){
-			alert('Script error; see browser console for details');
+		if (string.indexOf(substring) > -1) {
+			alert('Script error; see browser console for details.');
 		} else {
 			var message = [
 				'Message: ' + msg,
@@ -92,15 +93,58 @@ document.addEventListener("DOMContentLoaded", function () {
 	let speed = "1";
 	
 	// Add the CSS for the animation
-	document.head.insertAdjacentHTML("beforeend", `<style>:root{--speed:${speed}s;}</style>`);
-	document.head.insertAdjacentHTML("beforeend", "<link rel='stylesheet' href='card-open/card-open.css'");
+	document.head.insertAdjacentHTML("beforeend", `
+		<style>
+			:root {
+				--speed: ${speed}s;
+			}
+
+		.card-open-class {
+			position: absolute;
+			margin: 0;
+			animation: card-open-animation var(--speed) ease forwards;
+			z-index: 2;
+		}
+
+
+		.card-open-class iframe {
+			border: none;
+			width:  100%;
+			height: 8em;
+			background: #000;
+			border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
+			animation: card-open-animation-iframe var(--speed) ease forwards;
+
+		}
+
+
+		@keyframes card-open-animation {
+			to {
+				left: 0;
+				top:  0;
+				width:  100%;
+				height: 100%;
+				margin: 0;
+				border-radius: 0;
+				box-shadow: none;
+			}
+		}
+
+		@keyframes card-open-animation-iframe {
+			to {
+				border-radius: 0;
+				height: 100%;
+			}
+		}
+		</style>
+	`);
 
 	// Add an event listener to each anchor that is a card
 	let allCards = document.getElementsByClassName("card");
 	for (let i=0; i<allCards.length; i++) {
 		let card = allCards[i];
 		if (card.tagName == "A")
-			card.addEventListener("click", oncardclick, i);
+			card.addEventListener("click", function () { open(i); } );
 	}
 
 });
