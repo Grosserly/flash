@@ -1,34 +1,12 @@
 
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("/common/css/vars.css");
 
 @keyframes fade-in {
     from {filter: opacity(0);}
     to   {filter: opacity(1);}
 }
 
-:root {
-
-	--card-border-radius: 10px;
-	--card-width: 16em;
-	--card-margin: 2em;
-	--card-df-width: calc(var(--card-width) + var(--card-margin)); /* De facto width */
-	
-	--white: #FAFAFA; /* off white */
-	--black: #171717; /* off black */
-	--translucent-light-gray: rgba(235, 235, 235, 0.97);
-	--translucent-mid-gray1:  rgba(170, 170, 170, 0.97);
-	--translucent-mid-gray2:  rgba(0, 0, 0, 0.3);
-	--gray1: #EEE     /* light gray */
-	--gray2: #AAA;    /* darker-but-still-pretty-light gray */
-	--gray3: #546E7A; /* blue-gray */
-	--blue:  #2196F3;
-	--green: #4CAF50;
-	--red:   #F44336;
-	--gold: #FFF176;
-	
-	--transition-speed: 250ms;
-
-}
 
 html, body {
 
@@ -40,7 +18,7 @@ html, body {
 body {
 
     padding: 0;
-    margin:  0;
+	margin:  0;
     background: var(--white);
 	color: var(--black);
     font-family: "Roboto", sans-serif;
@@ -52,7 +30,7 @@ body {
 header {
 
 	position: fixed;
-	padding: 0;
+	top: 0;
 	font-size: 1.5em;
     padding: 22px 1em 22px 80px;
 	background: var(--translucent-light-gray);
@@ -90,8 +68,6 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	animation: fade-in 1s;
-	
-	/*background: red;*/
 
 }
 
@@ -104,8 +80,6 @@ footer {
 	margin: 0 2em;
 	padding: 2em 0 0;
 	max-width: calc(var(--card-df-width) * 5);
-	
-	/*background: #ff00ff;*/
 
 }
 
@@ -116,7 +90,6 @@ footer {
 	background: var(--gold);
 	margin-top: 6em;
 	padding: 2em 1em 0;
-	/*width: calc(var(--card-df-width) * 3);*/
 
 } #featured > h1 {
 	
@@ -126,8 +99,6 @@ footer {
 	width: 100%;
 	font-size: 1.75em;
 	margin: -0.5em 0;
-	
-	/*background: green;*/
 
 }
 
@@ -149,18 +120,10 @@ footer {
 	width: var(--card-width);
 	margin: 0 1em 2em;
 	text-decoration: none;
-	color: inherit; 
-	/* image-rendering: pixelated; */ /* Kinda looks nice? Maybe? */
+	color: inherit;
 
 }
 
-.hz { /* Hover zoom - scale the card up just a little bit when hovered to make it look like its lifting off the page */
-
-	
-} .hz:hover {
-
-
-}
 
 .card img {
 
@@ -175,6 +138,12 @@ footer {
 .card p {
 
 	margin: 0.5em 1em;
+
+}
+
+.card p > b {
+
+	margin-left: 0.25em;
 
 }
 
