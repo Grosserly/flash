@@ -3,8 +3,8 @@
 @import url("/common/css/vars.css");
 
 @keyframes fade-in {
-from {filter: opacity(0);}
-to   {filter: opacity(1);}
+	from {filter: opacity(0);}
+	to   {filter: opacity(1);}
 }
 
 
@@ -17,12 +17,12 @@ html, body {
 
 body {
 
-padding: 0;
+	padding: 0;
 	margin:  0;
-background: var(--white);
+	background: var(--white);
 	color: var(--black);
-font-family: "Roboto", sans-serif;
-font-size: 13pt;
+	font-family: "Roboto", sans-serif;
+	font-size: 13pt;
 
 }
 
@@ -47,10 +47,10 @@ header, footer {
 
 footer {
 
-background: var(--translucent-light-gray);
-outline: 1px solid var(--translucent-mid-gray1);
+	background: var(--translucent-light-gray);
+	outline: 1px solid var(--translucent-mid-gray1);
 	text-align: center;
-padding: 2em 1em 4em;
+	padding: 2em 1em 4em;
 
 }
 
@@ -64,7 +64,7 @@ padding: 2em 1em 4em;
 
 #card-container-container { /* For dynamic side margins */
 
-display: flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	animation: fade-in 1s;
